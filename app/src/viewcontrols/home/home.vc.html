@@ -1,1 +1,8 @@
-<h1>Hello World!</h1>
+<h1>Calculate!</h1>
+<input type="number" plat-bind="operandOne" placeholder="OperandOne">
+<input type="number" plat-bind="operandTwo" placeholder="OperandTwo">
+<plat-button class="button-primary" plat-tap="add()">+</plat-button>
+<plat-button class="button-secondary" plat-tap="subtract()">-</plat-button>
+<plat-button class="button-success" plat-tap="multiply()">*</plat-button>
+<plat-button class="button-caution" plat-tap="divide()">/</plat-button>
+<p>{{present}}</p>
